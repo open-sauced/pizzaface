@@ -1,6 +1,6 @@
 dependencies:
   '@sentry/node': 5.17.0
-  '@stopism/shortreddit': 1.0.2
+  '@stopism/shortreddit': 2.0.0
   chalk: 4.1.0
   common-tags: 1.8.0
   discord-akairo: 8.0.0_discord.js@12.2.0
@@ -365,10 +365,10 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
-  /@stopism/shortreddit/1.0.2:
+  /@stopism/shortreddit/2.0.0:
     dev: false
     resolution:
-      integrity: sha512-ORw7qpd0YzNuGoYMbbxZ2ln4sRfApm5CGYdNsMkNfqM/rv0g1imzj9KpfeK9yy0jD/L8R67RLUt9gXiQBpYyJA==
+      integrity: sha512-el7+TTQ1ry7BaASfw9IGdT4YqrbKVarACyAL0fLWeArcXIcL//FjIXsAwkbGQeyqBTXjtddNlZZrpmboYH4VUg==
   /@szmarczak/http-timer/1.1.2:
     dependencies:
       defer-to-connect: 1.1.3
@@ -389,7 +389,7 @@ packages:
       integrity: sha512-rr+OQyAjxze7GgWrSaJwydHStIhHq2lvY3BOC2Mj7KnzI7XK0Uw1TOOdI9lDoajEbSWLiYgoo4f1R51erQfhPQ==
   /@types/fs-extra/8.1.1:
     dependencies:
-      '@types/node': 8.10.61
+      '@types/node': 13.13.12
     dev: false
     optional: true
     resolution:
@@ -3627,8 +3627,8 @@ packages:
       tarball: 'https://codeload.github.com/discordjs/discord.js/tar.gz/1c275afd7cee4b3663a04f77b0271ac80e927a5e'
     version: 12.2.0
 specifiers:
-  '@sentry/node': ^5.15.4
-  '@stopism/shortreddit': ^1.0.2
+  '@sentry/node': ^5.17.0
+  '@stopism/shortreddit': ^2.0.0
   bufferutil: ^4.0.1
   chalk: ^4.1.0
   common-tags: ^1.8.0
@@ -3643,17 +3643,17 @@ specifiers:
   eslint-plugin-node: ^11.1.0
   eslint-plugin-promise: ^4.2.1
   eslint-plugin-standard: ^4.0.1
-  firebase-admin: ^8.10.0
+  firebase-admin: ^8.12.1
   firestore-db: ^1.0.5
-  helmet: ^3.21.3
-  html-entities: ^1.2.1
+  helmet: ^3.23.1
+  html-entities: ^1.3.1
   libsodium-wrappers: ^0.7.6
-  moment: ^2.24.0
+  moment: ^2.26.0
   moment-duration-format: ^2.3.2
   morgan: ^1.10.0
   node-emoji: ^1.10.0
   node-fetch: ^2.6.0
-  nodemon: ^2.0.2
+  nodemon: ^2.0.4
   punycode: ^2.1.1
   rejects: ^0.6.2
-  shelljs: ^0.8.3
+  shelljs: ^0.8.4
