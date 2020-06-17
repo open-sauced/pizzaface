@@ -1,5 +1,4 @@
 dependencies:
-  '@sentry/node': 5.17.0
   '@stopism/shortreddit': 2.0.0
   chalk: 4.1.0
   common-tags: 1.8.0
@@ -272,93 +271,6 @@ packages:
     optional: true
     resolution:
       integrity: sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=
-  /@sentry/apm/5.17.0:
-    dependencies:
-      '@sentry/browser': 5.17.0
-      '@sentry/hub': 5.17.0
-      '@sentry/minimal': 5.17.0
-      '@sentry/types': 5.17.0
-      '@sentry/utils': 5.17.0
-      tslib: 1.13.0
-    dev: false
-    engines:
-      node: '>=6'
-    resolution:
-      integrity: sha512-raJcPa04TP8mVocSTHe0PdULpRWhw0NaLq9Rk8KCTFBJvLsgzY2krph5/LgEfBBX78vWt70FrwSw+DdIfYIJ6g==
-  /@sentry/browser/5.17.0:
-    dependencies:
-      '@sentry/core': 5.17.0
-      '@sentry/types': 5.17.0
-      '@sentry/utils': 5.17.0
-      tslib: 1.13.0
-    dev: false
-    engines:
-      node: '>=6'
-    resolution:
-      integrity: sha512-++pXpCHtdek1cRUwVeLvlxUJ2w1s+eiC9qN1N+7+HdAjHpBz2/tA1sKBCqwwVQZ490Cf2GLll9Ao7fuPPmveRQ==
-  /@sentry/core/5.17.0:
-    dependencies:
-      '@sentry/hub': 5.17.0
-      '@sentry/minimal': 5.17.0
-      '@sentry/types': 5.17.0
-      '@sentry/utils': 5.17.0
-      tslib: 1.13.0
-    dev: false
-    engines:
-      node: '>=6'
-    resolution:
-      integrity: sha512-Kfx4rGKDC7V1YJjTGJXyl12VVHxM8Cjpu61YOyF8kXoXXg9u06C3n0G1dmfzLQERKXasUVMtXRBdKx/OjYpl1g==
-  /@sentry/hub/5.17.0:
-    dependencies:
-      '@sentry/types': 5.17.0
-      '@sentry/utils': 5.17.0
-      tslib: 1.13.0
-    dev: false
-    engines:
-      node: '>=6'
-    resolution:
-      integrity: sha512-lyUbEmshwaMYdAzy4iwgizgvKODVVloB2trnefpq90AuWCdvzcxMLIGULx1ou+KohccqdNorYICKWeuRscKq5A==
-  /@sentry/minimal/5.17.0:
-    dependencies:
-      '@sentry/hub': 5.17.0
-      '@sentry/types': 5.17.0
-      tslib: 1.13.0
-    dev: false
-    engines:
-      node: '>=6'
-    resolution:
-      integrity: sha512-v8xfkySXKrliZO6er6evlVe/ViUcqN0O8BhGyauK28Mf+KnKEOs5W6oWbt4qCDIttw9ynKIYyRrkAl/9oUR76A==
-  /@sentry/node/5.17.0:
-    dependencies:
-      '@sentry/apm': 5.17.0
-      '@sentry/core': 5.17.0
-      '@sentry/hub': 5.17.0
-      '@sentry/types': 5.17.0
-      '@sentry/utils': 5.17.0
-      cookie: 0.3.1
-      https-proxy-agent: 4.0.0
-      lru_map: 0.3.3
-      tslib: 1.13.0
-    dev: false
-    engines:
-      node: '>=6'
-    resolution:
-      integrity: sha512-gaM+LNjQc7Wm+RG4f7KGZ/+An8RQ9/8CkJDB/DP4qwufsaIrcg1dZa6KeAUnh3KaXZ+ZuPji+agCIV/AQU4x8g==
-  /@sentry/types/5.17.0:
-    dev: false
-    engines:
-      node: '>=6'
-    resolution:
-      integrity: sha512-1z8EXzvg8GcsBNnSXgB5/G7mz2PwmMt9mjOrVG1jhtSGH1c7WvB32F5boqoMcjIJmy5MrBGaaXwrF/RRJrwUQg==
-  /@sentry/utils/5.17.0:
-    dependencies:
-      '@sentry/types': 5.17.0
-      tslib: 1.13.0
-    dev: false
-    engines:
-      node: '>=6'
-    resolution:
-      integrity: sha512-qn8WgZcSkV/rx0ezp9q/xFjP7aMaYZO1/JYLXV4o6pYrQ9tvMmmwAZT39FpJunhhbkR36WNEuRB9C2K250cb/A==
   /@sindresorhus/is/0.14.0:
     dev: false
     engines:
@@ -439,12 +351,6 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-tLc0wSnatxAQHVHUapaHdz72pi9KUyHjq5KyHjGg9Y8Ifdc79pTh2XvI6I1/chZbnM7QtNKzh66ooDogPZSleA==
-  /agent-base/5.1.1:
-    dev: false
-    engines:
-      node: '>= 6.0.0'
-    resolution:
-      integrity: sha512-TMeqbNl2fMW0nMjTEPOwe3J/PRFP4vqeoNuQMG0HlMrtm5QxKqdvAkZ1pRBQ/ulIyDD5Yq0nJ7YbdD8ey0TO3g==
   /agent-base/6.0.0:
     dependencies:
       debug: 4.1.1
@@ -836,12 +742,6 @@ packages:
       node: '>=4.0.0'
     resolution:
       integrity: sha512-/MtLWhJVvJNkA9dVLAp6fg9LxD2gfI6R2Fi1hPmfjYXSahJJzcfvoeDOxSyp4NvxMuwWv3WMssE9o31DoULHrQ==
-  /cookie/0.3.1:
-    dev: false
-    engines:
-      node: '>= 0.6'
-    resolution:
-      integrity: sha1-5+Ch+e9DtMi6klxcWpboBtFoc7s=
   /core-util-is/1.0.2:
     dev: false
     optional: true
@@ -1833,15 +1733,6 @@ packages:
     optional: true
     resolution:
       integrity: sha512-k0zdNgqWTGA6aeIRVpvfVob4fL52dTfaehylg0Y4UvSySvOq/Y+BOyPrgpUrA7HylqvU8vIZGsRuXmspskV0Tg==
-  /https-proxy-agent/4.0.0:
-    dependencies:
-      agent-base: 5.1.1
-      debug: 4.1.1
-    dev: false
-    engines:
-      node: '>= 6.0.0'
-    resolution:
-      integrity: sha512-zoDhWrkR3of1l9QAL8/scJZyLu8j/gBkcwcaQOZh7Gyh/+uJQzGVETdgT30akuwkpL8HTRfssqI3BZuV18teDg==
   /https-proxy-agent/5.0.0:
     dependencies:
       agent-base: 6.0.0
@@ -2350,10 +2241,6 @@ packages:
     optional: true
     resolution:
       integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==
-  /lru_map/0.3.3:
-    dev: false
-    resolution:
-      integrity: sha1-tcg1G5Rky9dQM1p5ZQoOwOVhGN0=
   /make-dir/3.1.0:
     dependencies:
       semver: 6.3.0
@@ -3332,6 +3219,7 @@ packages:
     resolution:
       integrity: sha512-aZW88SY8kQbU7gpV19lN24LtXh/yD4ZZg6qieAJDDg+YBsJcSmLGK9QpnUjAKVG/xefmvJGd1WUmfpT/g6AJGA==
   /tslib/1.13.0:
+    dev: true
     resolution:
       integrity: sha512-i/6DQjL8Xf3be4K/E6Wgpekn5Qasl1usyw++dAA35Ue5orEn65VIxOA+YvNNl9HV3qv70T7CNwjODHZrLwvd1Q==
   /tweetnacl/1.0.3:
@@ -3627,7 +3515,6 @@ packages:
       tarball: 'https://codeload.github.com/discordjs/discord.js/tar.gz/1c275afd7cee4b3663a04f77b0271ac80e927a5e'
     version: 12.2.0
 specifiers:
-  '@sentry/node': ^5.17.0
   '@stopism/shortreddit': ^2.0.0
   bufferutil: ^4.0.1
   chalk: ^4.1.0
