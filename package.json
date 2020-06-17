@@ -1,0 +1,62 @@
+{
+  "name": "sauced",
+  "main": "src/index.js",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "deploy": "pm2 start src/index.js --name Sauced -- --deploy",
+    "start": "node src/index.js",
+    "test": "eslint src/",
+    "lint": "eslint --fix src/"
+  },
+  "dependencies": {
+    "@sentry/node": "^5.15.4",
+    "@stopism/shortreddit": "^1.0.2",
+    "chalk": "^4.1.0",
+    "common-tags": "^1.8.0",
+    "discord-akairo": "^8.0.0",
+    "discord.js": "github:discordjs/discord.js",
+    "dotenv": "^8.2.0",
+    "firebase-admin": "^8.10.0",
+    "firestore-db": "^1.0.5",
+    "helmet": "^3.21.3",
+    "html-entities": "^1.2.1",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.3.2",
+    "morgan": "^1.10.0",
+    "node-emoji": "^1.10.0",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.2",
+    "punycode": "^2.1.1",
+    "rejects": "^0.6.2",
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.1",
+    "libsodium-wrappers": "^0.7.6"
+  },
+  "description": "Sauced",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NotMoni/Sauced-bot"
+  },
+  "keywords": [
+    "Discord"
+  ],
+  "author": "NotMoni",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/NotMoni/Sauced-bot.git/issues"
+  },
+  "homepage": "https://github.com/NotMoni/Sauced-bot.git#readme"
+}
