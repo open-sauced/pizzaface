@@ -4,8 +4,8 @@
   "description": "The Pizza Bot For Our Discord ",
   "version": "0.1.0",
   "scripts": {
-    "deploy": "pm2 start src/index.js --name pizzaface -- --deploy",
-    "start": "node src/index.js",
+    "deploy": "pm2 start src/bot.js --name pizzaface -- --deploy",
+    "start": "node src/bot.js",
     "test": "eslint src/",
     "lint": "eslint --fix src/"
   },
@@ -26,6 +26,7 @@
     "node-emoji": "^1.10.0",
     "node-fetch": "^2.6.0",
     "nodemon": "^2.0.4",
+    "pm2": "^4.4.0",
     "punycode": "^2.1.1",
     "rejects": "^0.6.2",
     "shelljs": "^0.8.4"
