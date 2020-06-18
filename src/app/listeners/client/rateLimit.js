@@ -1,5 +1,6 @@
 const { Listener } = require('discord-akairo');
 const { MessageEmbed } = require('discord.js');
+const Discord = require('discord.js');
 const Logger = require('../../util/logger');
 
 class RateLimitListener extends Listener {
@@ -11,18 +12,18 @@ class RateLimitListener extends Listener {
     });
   }
 
+  // eslint-disable-next-line class-methods-use-this
   async exec({
     timeout, limit, method, path, route,
   }) {
     const error = {
       timeout, limit, method, path, route,
     };
-    const id = null;
-    // Need to add webhook for bot logs
+
     Logger.warn(error, { level: 'RATE LIMIT' });
 
-    const webhook = await this.client.fetchWebhook(id).catch(() => null);
-    if (!webhook) return;
+    // eslint-disable-next-line max-len
+    const webhook = new Discord.WebhookClient(process.env.ERROR_HOOK_ID, process.env.ERROR_HOOK_TOKEN);
 
     const embed = new MessageEmbed()
       .setColor(0xfaf5f5)
