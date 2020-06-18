@@ -1,6 +1,7 @@
 const { Command } = require('discord-akairo');
 const shell = require('shelljs');
 
+// eslint-disable-next-line no-unused-vars
 class GitPullCommand extends Command {
   constructor() {
     super('git-pull', {
@@ -24,4 +25,4 @@ class GitPullCommand extends Command {
   }
 }
 
-module.exports = GitPullCommand;
+// module.exports = GitPullCommand;
