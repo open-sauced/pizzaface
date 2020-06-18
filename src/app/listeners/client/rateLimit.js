@@ -1,6 +1,5 @@
 const { Listener } = require('discord-akairo');
 const { MessageEmbed } = require('discord.js');
-const { captureException } = require('@sentry/node');
 const Logger = require('../../util/logger');
 
 class RateLimitListener extends Listener {
@@ -18,10 +17,9 @@ class RateLimitListener extends Listener {
     const error = {
       timeout, limit, method, path, route,
     };
-    const id = '';
+    const id = null;
+    // Need to add webhook for bot logs
     Logger.warn(error, { level: 'RATE LIMIT' });
-
-    captureException(error);
 
     const webhook = await this.client.fetchWebhook(id).catch(() => null);
     if (!webhook) return;
