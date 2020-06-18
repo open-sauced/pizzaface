@@ -9,6 +9,10 @@
     "test": "eslint src/",
     "lint": "eslint --fix src/"
   },
+  "engines": {
+    "node": "14.x"
+  },
+
   "dependencies": {
     "@stopism/shortreddit": "^2.0.0",
     "chalk": "^4.1.0",
