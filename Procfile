@@ -1,1 +1,1 @@
-worker: pm2 start src/bot.js --name pizzaface -- --deploy
+worker: node src/bot.js
