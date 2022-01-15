@@ -33,7 +33,7 @@
     "pm2": "^4.4.0",
     "punycode": "^2.1.1",
     "rejects": "^0.6.2",
-    "shelljs": "^0.8.4"
+    "shelljs": "^0.8.5"
   },
   "devDependencies": {
     "eslint": "^7.2.0",
